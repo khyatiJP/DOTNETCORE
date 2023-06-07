@@ -1,0 +1,17 @@
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Infrastructure.deps.json
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Infrastructure.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\ref\Theatre.Infrastructure.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Infrastructure.pdb
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Application.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Domain.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Application.pdb
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\bin\Debug\net6.0\Theatre.Domain.pdb
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.csproj.AssemblyReference.cache
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.AssemblyInfoInputs.cache
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.AssemblyInfo.cs
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.csproj.CopyComplete
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\ref\Theatre.Infrastructure.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.Infrastructure\obj\Debug\net6.0\Theatre.Infrastructure.pdb

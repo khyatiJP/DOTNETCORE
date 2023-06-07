@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e6a6b1e1-2b9f-4a76-8b75-4fc1572afc5e": {
+      "ProjectGuid": "e6a6b1e1-2b9f-4a76-8b75-4fc1572afc5e",
+      "DisplayName": "Theatre",
+      "ColorIndex": 0
+    },
+    "cd83d8d4-6ce9-4a20-99b1-5d7f12810b7a": {
+      "ProjectGuid": "cd83d8d4-6ce9-4a20-99b1-5d7f12810b7a",
+      "DisplayName": "Theatre.Application",
+      "ColorIndex": 1
+    },
+    "fd5c3238-ba0b-4c81-b4d6-caf2cab9cab2": {
+      "ProjectGuid": "fd5c3238-ba0b-4c81-b4d6-caf2cab9cab2",
+      "DisplayName": "Theatre.Application",
+      "ColorIndex": 2
+    },
+    "a691f661-356c-4534-b233-fbb817ac945b": {
+      "ProjectGuid": "a691f661-356c-4534-b233-fbb817ac945b",
+      "DisplayName": "Theatre.Infrastructure",
+      "ColorIndex": 3
+    },
+    "1069e934-52e1-456e-b161-7ad4deb33b51": {
+      "ProjectGuid": "1069e934-52e1-456e-b161-7ad4deb33b51",
+      "DisplayName": "Theatre.Domain",
+      "ColorIndex": 4
+    },
+    "c59997ca-6cb8-4f66-b55f-3e5b20627a84": {
+      "ProjectGuid": "c59997ca-6cb8-4f66-b55f-3e5b20627a84",
+      "DisplayName": "Theatre.API",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
