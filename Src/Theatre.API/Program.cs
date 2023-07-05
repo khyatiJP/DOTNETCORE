@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Serilog;
+
+using Serilog.Events;
 using Theatre.Infrastructure.Data;
 using Theatre.Infrastructure.Extensions;
 
@@ -8,6 +11,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 string connection = builder.Configuration.GetConnectionString("DataConnection");
+
+var Logger=new LoggerConfiguration()
+    .WriteTo.MySQL(connection,"Errolog",LogEventLevel.Error,false,100,null).CreateLogger();
+
+builder.Host.UseSerilog(Logger);
+
 builder.Services.AddDbContext<ApplicationDbContext>(option =>
 {
     option.UseMySql(connection,ServerVersion.AutoDetect(connection));
@@ -25,6 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseSerilogRequestLogging();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
