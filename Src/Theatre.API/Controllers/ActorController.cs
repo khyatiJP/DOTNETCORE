@@ -19,7 +19,11 @@ namespace Theatre.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+
             _logger.LogCritical("At Actor Control");
+
+            throw new Exception();
+            
             IEnumerable<Actors> list = await  _actorRepo.GetAll();
             return Ok(list);
         }
