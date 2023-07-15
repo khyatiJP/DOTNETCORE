@@ -21,9 +21,7 @@ namespace Theatre.API.Controllers
         {
 
             _logger.LogCritical("At Actor Control");
-
-            throw new Exception();
-            
+            ///throw new Exception();            
             IEnumerable<Actors> list = await  _actorRepo.GetAll();
             return Ok(list);
         }
