@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jyowv9DenIpgfIj7G9pczYIWk1O/mXJeyjcpQ/o/mVj77A4A7NVX6jz/hh7rwDck51ZE5lG1l1rgpApxjPA+RA==",
+  "dgSpecHash": "CIOCZKUTOjNV2b54L/FhcivsYJI5V8m/2Df9i4dQgADN1dWziFQXjhDBNeKasU1A8uh/YnwZcgvNO5qeoFuFmw==",
   "success": true,
   "projectFilePath": "E:\\Project\\ASPNETCORE\\Theatre\\Src\\Theatre.API\\Theatre.API.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\mysql.data\\8.0.33\\mysql.data.8.0.33.nupkg.sha512",
