@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Theatre.API.Controllers
@@ -18,6 +19,7 @@ namespace Theatre.API.Controllers
             _logger = logger;
         }
 
+        [AllowAnonymous]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
