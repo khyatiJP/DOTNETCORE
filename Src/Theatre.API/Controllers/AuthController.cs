@@ -7,7 +7,7 @@ using Theatre.API.Handler;
 
 namespace Theatre.API.Controllers
 {
-    [Route("api/[Controller]")]
+    [Route("api/[Controller]/[action]")]
     [ApiController]
     public class AuthController : Controller
     {
@@ -42,6 +42,7 @@ namespace Theatre.API.Controllers
             }
             return new JsonResult(("Please pass the valid Username and Password"));
         }
+        
 
         public static string GenerateRefreshToken()
         {
