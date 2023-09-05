@@ -5,13 +5,15 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED6C15B9-2546-4CAD-9CA6-5A823C38A191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.Application", "Src\Theatre.Application\Theatre.Application.csproj", "{FD5C3238-BA0B-4C81-B4D6-CAF2CAB9CAB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theatre.Application", "Src\Theatre.Application\Theatre.Application.csproj", "{FD5C3238-BA0B-4C81-B4D6-CAF2CAB9CAB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.Infrastructure", "Src\Theatre.Infrastructure\Theatre.Infrastructure.csproj", "{A691F661-356C-4534-B233-FBB817AC945B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theatre.Infrastructure", "Src\Theatre.Infrastructure\Theatre.Infrastructure.csproj", "{A691F661-356C-4534-B233-FBB817AC945B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.Domain", "Src\Theatre.Domain\Theatre.Domain.csproj", "{1069E934-52E1-456E-B161-7AD4DEB33B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theatre.Domain", "Src\Theatre.Domain\Theatre.Domain.csproj", "{1069E934-52E1-456E-B161-7AD4DEB33B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.API", "Src\Theatre.API\Theatre.API.csproj", "{C59997CA-6CB8-4F66-B55F-3E5B20627A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theatre.API", "Src\Theatre.API\Theatre.API.csproj", "{C59997CA-6CB8-4F66-B55F-3E5B20627A84}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2B905442-8B79-4AC5-8648-4BA99BBF65EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{C59997CA-6CB8-4F66-B55F-3E5B20627A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59997CA-6CB8-4F66-B55F-3E5B20627A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59997CA-6CB8-4F66-B55F-3E5B20627A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B905442-8B79-4AC5-8648-4BA99BBF65EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B905442-8B79-4AC5-8648-4BA99BBF65EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B905442-8B79-4AC5-8648-4BA99BBF65EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B905442-8B79-4AC5-8648-4BA99BBF65EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

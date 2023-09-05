@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  theatre.api:
+    build:
+      context: .
+      dockerfile: Src/Theatre.API/Dockerfile
+    ports:
+    - 8080:80
