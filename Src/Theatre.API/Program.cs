@@ -24,6 +24,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 {
     option.UseMySql(connection,ServerVersion.AutoDetect(connection));
 });
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("RedisConnection"); ;
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 ///builder.Services.AddSwaggerGen();

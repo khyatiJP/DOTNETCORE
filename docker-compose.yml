@@ -7,3 +7,11 @@ services:
       dockerfile: Src/Theatre.API/Dockerfile
     ports:
     - 8080:80
+    depends_on: 
+    - theatre.redis
+  theatre.redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+    - 6379:6379
+

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 using System.Security.Cryptography;
 using Theatre.API.Handler;
+using Theatre.Infrastructure.Provider;
 
 namespace Theatre.API.Controllers
 {
@@ -11,12 +12,12 @@ namespace Theatre.API.Controllers
     [ApiController]
     public class AuthController : Controller
     {
-       // private readonly IDistributedCache _cache;
+        private readonly RedisProvider _cache;
 
-        //public AuthController(IDistributedCache cache)
-        //{
-        //    _cache = cache;
-        //}
+        public AuthController(RedisProvider cache)
+        {
+            _cache = cache;
+        }
         [HttpGet]
         public IActionResult Index()
         {
@@ -31,14 +32,15 @@ namespace Theatre.API.Controllers
             {
                 AuthHandler authHandler = new AuthHandler();
                 string token = authHandler.GenerateTokenString(Username);
-               
+
                 //object returnObject = new()
                 //{
                 //    token = token
                 //    rtoken = GenerateRefreshToken()
                 //};
-               // _cache.SetString("Token", JsonConvert.SerializeObject(token));
-                return new JsonResult(token);
+                 _cache.SetString("Token", token);
+                string value =_cache.GetString("Token");
+                return new JsonResult(value);
             }
             return new JsonResult(("Please pass the valid Username and Password"));
         }

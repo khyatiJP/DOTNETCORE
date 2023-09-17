@@ -98,3 +98,8 @@ E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\Microsoft.Identit
 E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\StackExchange.Redis.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\Project\ASPNETCORE\Theatre\Src\Theatre.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll

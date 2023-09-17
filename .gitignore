@@ -17,6 +17,23 @@
 mono_crash.*
 
 # Build results
+Src/Theatre.Api/[Bb]in/
+Src/Theatre.Api/[Oo]bj/
+Src/Theatre.Api/[Bb]in/[Dd]ebug/
+Src/Theatre.Api/[Dd]ebug/
+Src/Theatre.ApplicationBb]in/
+Src/Theatre.Application/[Dd]ebug/
+Src/Theatre.Application/[Bb]in/[Dd]ebug/
+
+Src/Theatre.Domain/[Bb]in/
+Src/Theatre.Domain/[Dd]ebug/
+Src/Theatre.Domain/[Bb]in/[Dd]ebug/
+
+Src/Theatre.Infrastructure/[Bb]in/
+Src/Theatre.Infrastructure/[Bb]in/[Dd]ebug/
+
+Src/Theatre.Infrastructure/[Dd]ebug/
+
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
